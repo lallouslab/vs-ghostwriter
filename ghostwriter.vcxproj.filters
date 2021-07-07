@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdparty\QtAwesome\QtAwesome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\QtAwesome\QtAwesomeAnim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abstractstatisticswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\affentry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\affixmgr.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\appmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\appsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\arena.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\autolink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\blocks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\cmark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\cmark_ctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmarkgfmapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cmarkgfmexporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\color_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\colorschemepreviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\commandlineexporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\commonmark.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\core-extensions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\csutil.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spelling\dictionary_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spelling\dictionary_provider_hunspell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spelling\dictionary_provider_voikko.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\documenthistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\documentmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\documentstatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\documentstatisticswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exportdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exporterfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exportformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\ext_scanners.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\filemgr.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\findreplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\footnotes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\hashmgr.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\houdini_href_e.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\houdini_html_e.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\houdini_html_u.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\html.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\htmlpreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\hunspell.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\hunzip.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\inlines.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\iterator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\latex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\linked_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\localedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\man.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\markdownast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\markdowndocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\markdowneditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\markdownhighlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\markdownnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\messageboxhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\node.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\outlinewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\phonet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\plaintext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preferencesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\previewoptionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\references.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\registry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\render.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\replist.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sandboxedwebpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\scanners.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sessionstatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sessionstatisticswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sidebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simplefontdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spelling\spell_checker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\strikethrough.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stringobserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stylesheetbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\hunspell\suggestmgr.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\syntax_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\tagfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\extensions\tasklist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\themeeditordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\themerepository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\themeselectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timelabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\utf8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\cmark-gfm\core\xml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="3rdparty\QtAwesome\QtAwesome.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="3rdparty\QtAwesome\QtAwesomeAnim.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\spelling\abstract_dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spelling\abstract_dictionary_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\abstractstatisticswidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\hunspell\affentry.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\affixmgr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\appsettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\hunspell\atypes.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\autolink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\baseaffix.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\cmark-gfm-core-extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\cmark-gfm-extension_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\cmark-gfm-extensions_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\cmark-gfm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\cmark-gfm_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\cmark-gfm_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\cmark_ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cmarkgfmapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cmarkgfmexporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\color_button.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\colorscheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\colorschemepreviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\commandlineexporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\csutil.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\spelling\dictionary_manager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\spelling\dictionary_provider_hunspell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spelling\dictionary_provider_voikko.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spelling\dictionary_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\dictmgr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\documenthistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\documentmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\documentstatistics.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\documentstatisticswidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\exportdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\exporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exporterfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exportformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\ext_scanners.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\filemgr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\findreplace.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\cmark-gfm\core\footnotes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\hashmgr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\houdini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\html.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\htmlpreview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\hunspell\htypes.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\hunspell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\hunspell.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\hunvisapi.h.in">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\hunvisapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\hunzip.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\inlines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\langnum.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\license.hunspell">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\localedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\cmark-gfm\core\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\markdownast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\markdowndocument.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\markdowneditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\markdowneditortypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\markdownhighlighter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\markdownnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\markdownstates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memoryarena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\messageboxhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\outlinewidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\cmark-gfm\core\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\phonet.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\preferencesdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\previewoptionsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\cmark-gfm\core\references.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\replist.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sandboxedwebpage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\scanners.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\sessionstatistics.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\sessionstatisticswidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\sidebar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\simplefontdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\spelling\spell_checker.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\strikethrough.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\stringobserver.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\stylesheetbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\suggestmgr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\core\syntax_extension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\tagfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\cmark-gfm\extensions\tasklist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\textblockdata.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\themeeditordialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\themerepository.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\themeselectiondialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\timelabel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="3rdparty\cmark-gfm\core\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\hunspell\w_char.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="build\debug\moc_QtAwesome.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_QtAwesome.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_QtAwesomeAnim.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_QtAwesomeAnim.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_abstractstatisticswidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_abstractstatisticswidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_appsettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_appsettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_color_button.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_color_button.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_dictionary_manager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_dictionary_manager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_documentmanager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_documentmanager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_documentstatistics.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_documentstatistics.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_documentstatisticswidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_documentstatisticswidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_exportdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_exportdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_findreplace.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_findreplace.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_htmlpreview.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_htmlpreview.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_localedialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_localedialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_markdowndocument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_markdowndocument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_markdowneditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_markdowneditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_markdownhighlighter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_markdownhighlighter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_outlinewidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_outlinewidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include="build\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="build\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="build\debug\moc_preferencesdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_preferencesdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_previewoptionsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_previewoptionsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_sessionstatistics.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_sessionstatistics.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_sessionstatisticswidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_sessionstatisticswidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_sidebar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_sidebar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_simplefontdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_simplefontdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_spell_checker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_spell_checker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_stringobserver.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_stringobserver.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_textblockdata.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_textblockdata.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_themeeditordialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_themeeditordialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_themerepository.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_themerepository.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_themeselectiondialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_themeselectiondialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_timelabel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_timelabel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\qrc_QtAwesomeFree.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\qrc_QtAwesomeFree.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\qrc_resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\qrc_resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="translations\ghostwriter_ar.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_ca.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_cs.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_de.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_en.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_es.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_fr.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_it.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_ja.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_nb_NO.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_nl.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_pl.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_pt_BR.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_ru.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_sv.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translations\ghostwriter_zh.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3rdparty\QtAwesome\fonts\Font Awesome 5 Brands-Regular-400.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\QtAwesome\fonts\Font Awesome 5 Free-Regular-400.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\QtAwesome\fonts\Font Awesome 5 Free-Solid-900.otf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="3rdparty\QtAwesome\QtAwesomeFree.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\action.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\all-packages.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\ams.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\amscd.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\asciimath.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\a11y\assistive-mml.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\autoload.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\bbox.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\boldsymbol.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\braket.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\bussproofs.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\cancel.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\color.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\colorv2.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\a11y\complexity.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\configmacros.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\core.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\mathmaps\de.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\mathmaps\en.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\enclose.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\mml\entities.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\mathmaps\es.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\a11y\explorer.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\extpfeil.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\mathmaps\fr.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\ghostwriter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\react\html-react-parser.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\html.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\latest.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\adaptors\liteDOM.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\loader.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\mathmaps\mathmaps_ie.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\ui\menu.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\mhchem.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\mml-svg.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\mml.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\mathmaps\nemeth.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\newcommand.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\node-main.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\noerrors.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\noundefined.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\physics.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\preview.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\preview.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\react\react-dom.production.min.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\react\react.production.min.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\require.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="resources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="3rdparty\MathJax\bin\ui\safe.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\a11y\semantic-enrich.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\sre-node.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\sre\sre_browser.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\startup.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\output\svg.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\tagformat.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex-base.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex-full.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\tex-mml-svg.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\tex-svg-full.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\tex-svg.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\output\svg\fonts\tex.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\textmacros.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\unicode.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="3rdparty\MathJax\bin\input\tex\extensions\verb.js">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\windows\ghostwriter.rc" />
+  </ItemGroup>
+</Project>
