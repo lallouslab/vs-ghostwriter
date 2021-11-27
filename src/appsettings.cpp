@@ -1,4 +1,4 @@
-/***********************************************************************
+﻿/***********************************************************************
  *
  * Copyright (C) 2014-2021 wereturtle
  * Copyright (C) 2008, 2009, 2010, 2011, 2012, 2013, 2014 Graeme Gott <graeme@gottcode.org>
@@ -25,15 +25,19 @@
 #include <QFontInfo>
 #include <QLocale>
 #include <QSettings>
+#include <QStandardPaths>
+#include <QString>
 #include <QStringList>
 
 #include "appsettings.h"
 #include "dictionary_manager.h"
 #include "exporterfactory.h"
 
+#define GW_FAVORITE_STATISTIC_KEY "Session/favoriteStatistic"
+#define GW_RESTORE_SESSION_KEY "Session/restoreSession"
+#define GW_REMEMBER_FILE_HISTORY_KEY "Session/rememberFileHistory"
 #define GW_AUTOSAVE_KEY "Save/autoSave"
 #define GW_BACKUP_FILE_KEY "Save/backupFile"
-#define GW_REMEMBER_FILE_HISTORY_KEY "Save/rememberFileHistory"
 #define GW_EDITOR_FONT_KEY "Style/editorFont"
 #define GW_LARGE_HEADINGS_KEY "Style/largeHeadings"
 #define GW_AUTO_MATCH_KEY "Typing/autoMatchEnabled"
@@ -81,8 +85,11 @@ public:
     bool autoMatchEnabled;
     bool autoSaveEnabled;
     bool backupFileEnabled;
+    QString draftLocation;
     bool bulletPointCyclingEnabled;
     bool displayTimeInFullScreenEnabled;
+    int favoriteStatistic;
+    bool restoreSessionEnabled;
     bool fileHistoryEnabled;
     bool hideMenuBarInFullScreenEnabled;
     bool htmlPreviewVisible;
@@ -153,6 +160,8 @@ void AppSettings::store()
     appSettings.setValue(GW_LAST_USED_EXPORTER_KEY, QVariant(d->currentHtmlExporter->name()));
     appSettings.setValue(GW_LIVE_SPELL_CHECK_KEY, QVariant(d->liveSpellCheckEnabled));
     appSettings.setValue(GW_LOCALE_KEY, QVariant(d->locale));
+    appSettings.setValue(GW_RESTORE_SESSION_KEY, QVariant(d->restoreSessionEnabled));
+    appSettings.setValue(GW_FAVORITE_STATISTIC_KEY, QVariant(d->favoriteStatistic));
     appSettings.setValue(GW_REMEMBER_FILE_HISTORY_KEY, QVariant(d->fileHistoryEnabled));
     appSettings.setValue(GW_SPACES_FOR_TABS_KEY, QVariant(d->insertSpacesForTabsEnabled));
     appSettings.setValue(GW_TAB_WIDTH_KEY, QVariant(d->tabWidth));
@@ -212,6 +221,13 @@ void AppSettings::setBackupFileEnabled(bool enabled)
     
     d->backupFileEnabled = enabled;
     emit backupFileChanged(enabled);
+}
+
+QString AppSettings::draftLocation() const
+{
+    Q_D(const AppSettings);
+
+    return d->draftLocation;
 }
 
 QFont AppSettings::editorFont() const
@@ -417,6 +433,36 @@ void AppSettings::setHideMenuBarInFullScreenEnabled(bool enabled)
     
     d->hideMenuBarInFullScreenEnabled = enabled;
     emit hideMenuBarInFullScreenChanged(enabled);
+}
+
+int AppSettings::favoriteStatistic() const
+{
+    Q_D(const AppSettings);
+
+    return d->favoriteStatistic;
+}
+
+void AppSettings::setFavoriteStatistic(int value)
+{
+    Q_D(AppSettings);
+
+    if (value >= 0) {
+        d->favoriteStatistic = value;
+    }
+}
+
+bool AppSettings::restoreSessionEnabled() const
+{
+    Q_D(const AppSettings);
+
+    return d->restoreSessionEnabled;
+}
+
+void AppSettings::setRestoreSessionEnabled(bool enabled)
+{
+    Q_D(AppSettings);
+
+    d->restoreSessionEnabled = enabled;
 }
 
 bool AppSettings::fileHistoryEnabled() const
@@ -637,6 +683,9 @@ AppSettings::AppSettings()
     // Handle portability
     QString userDir;
 
+    d->draftLocation =
+        QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+
     if (portable.exists() && portable.isWritable()) {
         userDir = portable.absoluteFilePath();
         QSettings::setDefaultFormat(QSettings::IniFormat);
@@ -648,6 +697,14 @@ AppSettings::AppSettings()
         );
 
         d->translationsPath = appDir + "/translations";
+
+        d->draftLocation = appDir + "/drafts";
+
+        QDir draftDir(d->draftLocation);
+
+        if (!draftDir.exists()) {
+            draftDir.mkpath(draftDir.path());
+        }
     } else {
 #ifdef Q_OS_WIN32
         // On Windows, don't ever use the registry to store settings, for the
@@ -674,21 +731,22 @@ AppSettings::AppSettings()
         }
     }
 
-    QDir themeDir(userDir + "/themes");
+    d->themeDirectoryPath = userDir + "/themes";
+
+    QDir themeDir(d->themeDirectoryPath);
 
     if (!themeDir.exists()) {
         themeDir.mkpath(themeDir.path());
     }
 
-    d->themeDirectoryPath = themeDir.absolutePath();
+    d->dictionaryPath = userDir + "/dictionaries";
 
-    QDir dictionaryDir(userDir + "/dictionaries");
+    QDir dictionaryDir(d->dictionaryPath);
 
     if (!dictionaryDir.exists()) {
         dictionaryDir.mkpath(dictionaryDir.path());
     }
 
-    d->dictionaryPath = dictionaryDir.absolutePath();
     DictionaryManager::setPath(d->dictionaryPath);
 
     QStringList dictdirs;
@@ -701,7 +759,6 @@ AppSettings::AppSettings()
     }
 
     QDir::setSearchPaths("dict", dictdirs);
-
 
     // End FocusWriter lift/mod
 
@@ -767,6 +824,8 @@ AppSettings::AppSettings()
     }
 
     d->hideMenuBarInFullScreenEnabled = appSettings.value(GW_HIDE_MENU_BAR_IN_FULL_SCREEN_KEY, QVariant(true)).toBool();
+    d->favoriteStatistic = appSettings.value(GW_FAVORITE_STATISTIC_KEY, QVariant(0)).toInt();
+    d->restoreSessionEnabled = appSettings.value(GW_RESTORE_SESSION_KEY, QVariant(true)).toBool();
     d->fileHistoryEnabled = appSettings.value(GW_REMEMBER_FILE_HISTORY_KEY, QVariant(true)).toBool();
     d->displayTimeInFullScreenEnabled = appSettings.value(GW_DISPLAY_TIME_IN_FULL_SCREEN_KEY, QVariant(true)).toBool();
     d->themeName = appSettings.value(GW_THEME_KEY, QVariant("Classic Light")).toString();
