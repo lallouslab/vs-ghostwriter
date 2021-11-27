@@ -592,6 +592,9 @@
     <CustomBuild Include="src\spelling\spell_checker.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="src\statisticsindicator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
     <ClInclude Include="3rdparty\cmark-gfm\extensions\strikethrough.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -796,6 +799,12 @@
       <Filter>Generated Files</Filter>
     </ClCompile>
     <ClCompile Include="build\release\moc_spell_checker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\debug\moc_statisticsindicator.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\release\moc_statisticsindicator.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
     <ClCompile Include="build\debug\moc_stringobserver.cpp">

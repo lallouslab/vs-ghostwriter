@@ -57,6 +57,7 @@
 #include "stylesheetbuilder.h"
 #include "themeselectiondialog.h"
 #include "spelling/dictionary_manager.h"
+#include "statisticsindicator.cpp"
 
 namespace ghostwriter
 {
