@@ -1,3 +1,7 @@
+# Important / Deprecated
+
+[wereturtle](https://github.com/wereturtle/ghostwriter/releases) has started to provide their own Windows builds again so this repo will be deprecated.
+___
 # <img src="./resources/images/ghostwriter.svg" align="left" width="32" style="padding-right:5px"> ghostwriter
 
  ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wereturtle/ghostwriter?style=flat-square&label=upstream&labelColor=red&color=gray&logo=github) ![Debian package](https://img.shields.io/debian/v/ghostwriter?style=flat-square&labelColor=blue&color=gray&logo=debian) ![Ubuntu package](https://img.shields.io/ubuntu/v/ghostwriter?logo=ubuntu&style=flat-square&labelColor=purple&color=gray) ![Fedora package](https://img.shields.io/fedora/v/ghostwriter?labelColor=blue&&color=gray&logo=fedora&style=flat-square)
